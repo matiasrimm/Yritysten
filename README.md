@@ -1,5 +1,9 @@
 # yritysten
 
+Playing with Patentti and Rekisteri Hallitus' application interface.
+
+PRH -api has a max 300 calls per minute for all users.
+
 generated using Luminus version "2.9.11.02"
 
 ## Prerequisites
