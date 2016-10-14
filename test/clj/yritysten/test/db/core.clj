@@ -18,7 +18,7 @@
 (deftest test-users
   (jdbc/with-db-transaction [t-conn *db*]
     (jdbc/db-set-rollback-only! t-conn)
-    (is (= 1 (db/create-user!
+    (is (= 1 (db/create-business!
                t-conn
                {:name         "Teppo"
                 :registrationDate "12.12.2012"
